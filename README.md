@@ -7,14 +7,15 @@ It also includes features like login, task dashboard, and a clean UI layout.
 ---
 ## 📸 Preview
 
+### > Age Restricted Registration Form: -
 ![Age Restricted Registration Form](Snapshots/index.png)
-
+### > Existing User Signin Form: -
 ![Existing User Signin Form](Snapshots/signin.png)
-
+### > Todo Tasks List Focused Card: -
 ![Todo Tasks List Focused Card](Snapshots/dashboard1.png)
-
+### > Completed Tasks List Focused Card: -
 ![Completed Tasks List Focused Card](Snapshots/dashboard2.png)
-
+### > Archived Tasks List Focused Task Card: -
 ![Archived Tasks List Focused Task Card](Snapshots/dashboard3.png)
 
 
@@ -83,3 +84,6 @@ To run this project locally:
 
 
 ---
+## Live Demo
+
+Check out the app live at: https://taskflow07.netlify.app/
