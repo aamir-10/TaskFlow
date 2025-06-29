@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow | Verify Identity</title>
+  <link rel="stylesheet" href="style/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="landing-container">
+    <div class="branding">
+      <img src="assets/logo1.png" alt="Shield Icon" />
+      <h1>TaskFlow</h1>
+      <h4>Your Very Own Task Manager</h4>
+    </div>
+
+    <div class="card">
+      <p class="subtext">🔒 Age verification required for access</p>
+
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="date" id="dob" required />
+        <button type="submit" class="gradient-btn">Verify & Continue</button>
+        <p id="errorMsg" class="error"></p>
+      </form>
+
+      <p class="terms">
+        By continuing, you confirm that you are over 10 years old and agree to our terms of service.
+      </p>
+      <p id="loginLink" style="margin-top: 1rem;"></p>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
