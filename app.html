@@ -31,6 +31,11 @@
       </div>
     </header>
 
+    <div class="search-container">
+      <input type="text" id="task-search" placeholder="Search tasks..." oninput="handleSearchInput()" />
+      <button id="clear-search" class="clear-btn hidden" onclick="clearSearch()">×</button>
+    </div>
+    
     <div class="input-container">
       <input type="text" id="new-task" placeholder="Add your task here..." />
       <button onclick="addTask()">Add Task</button>
@@ -38,11 +43,6 @@
 
     <p id="task-error" class="error-message hidden">Empty task cannot be added!</p>
     <div id="addTaskNotification" class="notification hidden"></div>
-
-    <div class="search-container">
-      <input type="text" id="task-search" placeholder="Search tasks..." oninput="handleSearchInput()" />
-      <button id="clear-search" class="clear-btn hidden" onclick="clearSearch()">×</button>
-    </div>
 
     <nav>
       <button class="tab active" onclick="showTab('todo')">Todo (<span id="todo-count">0</span>)</button>
